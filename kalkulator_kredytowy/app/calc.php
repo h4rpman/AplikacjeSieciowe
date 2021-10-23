@@ -11,7 +11,6 @@ require_once dirname(__FILE__).'/../config.php';
 $x = $_REQUEST ['x'];
 $y = $_REQUEST ['y'];
 $z = $_REQUEST ['z'];
-// 2. walidacja parametrów z przygotowaniem zmiennych dla widoku
 
 // sprawdzenie, czy parametry zostały przekazane
 if ( ! (isset($x) && isset($y) && isset($z))) {
